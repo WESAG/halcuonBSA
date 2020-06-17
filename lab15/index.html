@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="style.css">
+<title> Борейко </title>
+</head>
+<body>
+    <div id="vueApp">
+      <h1 align="center">Posts</h1>
+        <div class="posts">
+          <div class="wrapper">
+            <div v-for="date in data" class="card">
+              <h3>{{ date.title }}</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="https://unpkg.com/vue"></script>
+    <script src = "Vue.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+
+h1{
+	 font-family: Arial;  
+	 font-size: 120%; 
+	font-weight: lighter;
+}
+
+.MainBox{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.code{
+
+	font-size: 30px;
+	margin: 10px;
+	padding: 5px;
+	text-align: center;
+}
+.computer{
+
+	font-size: 30px;
+	margin: 10px;
+	padding: 5px;
+	text-align: center;
+}
+.heart{
+
+	font-size: 30px;
+	margin: 10px;
+	padding: 5px;
+	text-align: center;
+}
+.text{
+
+	font-size: 30px;
+	font-family: 'Merriweather';
+	font-weight: bold;
+	
+}
+.secondbox{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.box1{
+
+	color: #8c9398;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	font-family: 'Merriweather' , bold;
+}
+.code1{
+	background-color: #23272f;
+	padding-left:5px;
+	padding-top:5px;
+	margin: 1px;
+	width: 21px;
+	height: 20px;
+	border-radius: 50%;
+}
+.code1:hover{
+	background-color:#57d0bd;
+}
